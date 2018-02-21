@@ -1,0 +1,8 @@
+@font-face {
+    font-family: PTSans; /* Имя шрифта */
+    src: url(fonts/PT_Sans-Web-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+       font-family: PTSansBold; /* Имя шрифта */
+       src: url(fonts/PT_Sans-Web-Bold.ttf); /* Путь к файлу со шрифтом */
+      }

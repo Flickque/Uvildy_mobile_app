@@ -1,0 +1,54 @@
+
+
+/* leftleftmenu */
+
+.leftmenu {
+  left: -285px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  z-index: 200;
+  padding-top: -10px;
+  background-color: white;
+}
+.shadow{
+  box-shadow: 6px 0 32px -4px #222, 6px 0 25px -2px #222;
+  -moz-box-shadow: 6px 0 32px -4px #222, 6px 0 25px -2px #222;
+  -webkit-box-shadow: 6px 0 32px -4px #222, 6px 0 25px -2px #222;
+}
+
+.close-img{
+  width: 25px;
+  margin-top: 25px;
+  position: relative;
+  left: 0px;
+}
+
+.leftmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+
+.leftmenu li {
+  text-align: center;
+  height: 40px
+}
+
+.leftmenu li:active {
+}
+.leftmenu li:hover {
+  text-decoration: underline;
+}
+
+.leftmenu a {
+  color: black;
+  font-family: PTSansBold;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  line-height: 40px
+}

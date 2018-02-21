@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="format-detection" content="telephone=no" />
+        <link rel="import" href="css.html">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Программы</title>
+    </head>
+    <body>
+    <header>
+      <div id="lmenu" class="leftmenu">
+        <img class="close-img" src="img/icons/iconfinder-icon.svg">
+         <ul>
+           <!--LeftMenu-->
+           <script id="LeftMenuTemplate" type="text/x-handlebars-template">
+             {{#each Data}}
+               {{#each LeftMenu}}
+                    {{#each links}}
+                    <li><a href="{{href}}">{{title}}</a></li>
+                    {{/each}}
+                {{/each}}
+             {{/each}}
+           </script>
+         </ul>
+         <div class="second_footer col-xs-12">
+           <img src="img/logo.svg">
+         </div>
+     </div>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="header-backgorund">
+              <div class="col-xs-2 header-burger-menu">
+                <img src="img/icons/iconfinder-icon.svg">
+              </div>
+             <div class="header-logo">
+               <h1>Программы</h1>
+             </div>
+             <div class="header-back">
+                <img src="img/icons/ios-arrow-back.svg">
+             </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <section id="programsmenu">
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+          <!-- ProgramsMenu -->
+          <script id="ProgramsMenuTemplate" type="text/x-handlebars-template">
+            {{#each Data}}
+              {{#each ProgramsMenu}}
+                   {{#each blocks}}
+                     <a href="{{href}}"><div class="col-xs-6 menu-section">
+                       <img src="{{img}}">
+                       <div class="menu-title">
+                         <p>{{title}}</p>
+                       </div>
+                     </div></a>
+                   {{/each}}
+               {{/each}}
+            {{/each}}
+          </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="footer-backgorund">
+              <div class="col-xs-6 footer-logo">
+                <img src="img/logo2.svg">
+              </div>
+              <div class="col-xs-6 contact-form">
+                <p>+7(351)225-16-16</p>
+                <button>Позвонить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <link rel="import" href="scripts.html">
+    </body>
+</html>

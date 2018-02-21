@@ -1,0 +1,239 @@
+{
+"Data":[
+    {
+    "Page":
+      [
+        {
+          "name": "Page",
+          "blocks":
+            [
+              {
+                "img": "",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "",
+                "title": "",
+                "href": ""
+              }
+            ]
+        }
+      ],
+    "AboutPage":
+      [
+        {
+          "name": "AboutPage",
+          "blocks":
+            [
+              {
+                "img": "",
+                "title": "История курорта",
+                "href": "history.html"
+              },
+              {
+                "img": "Карта курорта",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "Как добраться?",
+                "title": "",
+                "href": ""
+              },
+              {
+                "img": "Отзывы",
+                "title": "",
+                "href": ""
+              }
+            ]
+        }
+      ],
+    "MainMenu":
+      [
+        {
+          "name": "MainMenu",
+          "blocks":
+            [
+              {
+                "img": "img/news_and_discont.jpg",
+                "title": "Новости и акции",
+                "href": ""
+              },
+              {
+                "img": "img/online_bronirovanie.jpg",
+                "title": "Онлайн бронирование",
+                "href": ""
+              },
+              {
+                "img": "img/bespoldie.jpg",
+                "title": "Программы",
+                "href": "programs.html"
+              },
+              {
+                "img": "img/o_nas.jpg",
+                "title": "О нас",
+                "href": "about.html"
+              },
+              {
+                "img": "img/proceduri.jpg",
+                "title": "Процедуры",
+                "href": ""
+              },
+              {
+                "img": "img/infrastruktura.jpg",
+                "title": "Инфраструктура",
+                "href": ""
+              }
+            ]
+        }
+      ],
+    "HistoryPage":
+      [
+        {
+          "name": "History",
+          "blocks":
+            [
+              {
+                "year": "1890",
+                "title": "Основание первых лечебных корпусов",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius justo id commodo. Praesent id est eget sem sodales tristique et nec mi. Proin ante erat, consequat feugiat enim id, commodo placerat tortor."
+              },
+              {
+                "year": "1900",
+                "title": "Приезд первых посетителей",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius justo id commodo. Praesent id est eget sem sodales tristique et nec mi. Proin ante erat, consequat feugiat enim id, commodo placerat tortor."
+              },
+              {
+                "year": "1901",
+                "title": "Освоение новых территорий",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultricies varius justo id commodo. Praesent id est eget sem sodales tristique et nec mi. Proin ante erat, consequat feugiat enim id, commodo placerat tortor."
+              }
+            ]
+        }
+      ],
+    "ProgramsMenu":
+      [
+        {
+          "name": "ProgramsMenu",
+          "blocks":
+            [
+              {
+                "img": "img/brain.jpg",
+                "title": "Клиника мозга",
+                "href": ""
+              },
+              {
+                "img": "img/children.jpg",
+                "title": "Детская программа",
+                "href": ""
+              },
+              {
+                "img": "img/bespoldie.jpg",
+                "title": "Лечение бесплодия",
+                "href": ""
+              },
+              {
+                "img": "img/cosmetologiya.jpg",
+                "title": "Косметология",
+                "href": ""
+              },
+              {
+                "img": "img/detox_light.jpg",
+                "title": "Детокс лайт",
+                "href": ""
+              },
+              {
+                "img": "img/detox_intensive.jpg",
+                "title": "Детокс интенсив",
+                "href": ""
+              },
+              {
+                "img": "img/bolezni_kotorie_mi_lechim.jpg",
+                "title": "Болезни, которые мы лечим",
+                "href": ""
+              },
+              {
+                "img": "img/obshee_ozdorovlenie.jpg",
+                "title": "Общее оздоровление",
+                "href": ""
+              },
+              {
+                "img": "img/standart_ochishenie_organiizma.jpg",
+                "title": "Стандартная программа очищение организма",
+                "href": ""
+              },
+              {
+                "img": "img/lux_ochishenie_organizma.jpg",
+                "title": "Люкс программа очищение организма",
+                "href": ""
+              },
+              {
+                "img": "img/prezident_ochishenie_organizma.jpg",
+                "title": "Президентская программа очищение организма",
+                "href": ""
+              },
+              {
+                "img": "img/putevka_vihodnogo_dnya.jpg",
+                "title": "Путевка выходного дня",
+                "href": ""
+              }
+            ]
+        }
+      ],
+    "LeftMenu":
+      [
+        {
+        "name": "LeftMenu",
+        "links":
+          [
+            {
+              "href" : "index.html",
+              "title": "Главная"
+            },
+            {
+              "href" : "reviews.html",
+              "title": "Оставить отзыв"
+            },
+            {
+              "href" : "personal_card.html",
+              "title": "Персональная карта"
+            },
+            {
+              "href" : "contacts.html",
+              "title": "Контакты"
+            },
+            {
+              "href" : "call.html",
+              "title": "Позвонить"
+            },
+            {
+              "href" : "support.html",
+              "title": "Служба поддержки"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
